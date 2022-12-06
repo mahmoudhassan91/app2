@@ -1,0 +1,26 @@
+
+form {
+  max-width: 500px;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: transparent;
+  
+}
+
+form span{
+    color: wheat;
+    font-weight: bold;
+    padding: 15px ;
+    display:flex;
+    justify-content: center;
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+   
+  </head>
+  <body>
+   
+    <nav class="navbar bg-dark rounded">
+      <div class="container-fluid">
+        <a id="title" class="navbar-brand" href="#">
+          <img
+            src="images/logo2.jpg"
+            alt="Logo"
+            width="45"
+            height="45"
+            class="d-inline-block align-text-center"
+          />
+          Mahmoud El-Sawy LawFirm
+        </a>
+        <i class="fa-brands fa-facebook"></i>
+        <div id="nav-btns">
+          <a id="sign_btn" href="#">Sign in</a>
+          <a href="#carouselExampleCaptions">Home</a>
+          <a href="#cards">About</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+    <form id="form1" action="">
+      <img src="images/sign up.jpg" alt="SignUp" />
+      
+      <div>
+        <span>User Name</span>
+        <input type="text" name="username" id="" />
+      </div>
+      <div>
+        <span>Password</span>
+        <input type="password" name="password" id="" />
+      </div>
+      <div>
+        <span>Email-Adress</span>
+        <input type="email" name="username" id="" />
+      </div>
+      <div id="btns">
+        <button type="submit">submit</button>
+        <button id="close_btn">Close</button>
+      </div>
+    </form>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/clarisse-meyer-jKU2NneZAbI-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/hunters-race-MYbhN8KaaEc-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/melinda-gimpel-xcVW_sFp4jQ-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/sebastian-pichler-bAQH53VquTc-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr />
+    <h1>Our Work</h1>
+    <section id="cards">
+      
+      <div class="card m-3" style="width: 18rem">
+        <img
+          src="images/clarisse-meyer-jKU2NneZAbI-unsplash.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="images/hunters-race-MYbhN8KaaEc-unsplash.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card m-3" style="width: 18rem">
+        <img
+          src="images/women-lawyers.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card m-3" style="width: 18rem">
+        <img
+          src="images/Lawyer.jpeg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card m-3" style="width: 18rem">
+        <img
+          src="images/14-Secrets-Lawyers-Will-Never-Tell-You-8.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </section>
+    <hr />
+<h1>Let's Work Together</h1>
+    <section id="contact">
+      
+<h2> <i class="bi bi-telephone m-3 "></i></i> 01009955615 / 01099899325</h2>
+
+<h2><i class="bi bi-envelope m-3"></i> m_hassan91@hotmail.com</h2>
+<div id="social_icons">
+  <a href=""><i class="bi bi-facebook"></i></a>
+  <a href=""><i class="bi bi-twitter"></i></a>
+  <a href=""><i class="bi bi-instagram"></i></a>
+</div>
+    </section>
+    <hr>
+    <h2>Copy Rights<i class="bi bi-c-circle"></i>Mahmoud El-Sawy </h2>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
